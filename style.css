@@ -1,0 +1,65 @@
+body{
+   background-image: url("background.jpg");
+    width:auto;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+form{
+     width: 50%;
+     margin-top: 39px;
+     padding-top: 50px;
+     padding:10px;
+     border:1px white solid;
+
+}
+img{
+    width:100px;
+    margin-bottom:10px;
+    
+}
+input{
+    font-size: 20px;
+    padding:10px;
+    color:white;
+    background: transparent;
+    border:0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width:100%;
+    outline: none;
+    margin-bottom: 10px;
+    box-sizing:border-box;
+}
+
+
+input[type="submit"]{
+color: white;
+border: 1px solid white;
+border-color: white;
+margin-bottom: 0;
+}
+input[type="submit"]:hover{
+background-color: white;
+color:black;
+}
+input:focus{
+background-color: white;
+color:black;
+}
+
+a{
+    color:rgba(255, 255, 255, 0.5);
+   padding: 5px;
+   opacity: 0.6;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+a:hover{
+    opacity:1;
+    color: white;
+}
